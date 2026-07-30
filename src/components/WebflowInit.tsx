@@ -19,10 +19,33 @@ export default function WebflowInit() {
       // Some Webflow scripts push initialization functions to an array instead of running them.
       // We manually execute them here.
       setTimeout(() => {
+        // Set dynamic data-page attribute for animations based on current path
+        const path = window.location.pathname;
+        let page = "home";
+        if (path.includes("about-us")) page = "about";
+        else if (path.includes("contact-us")) page = "contact";
+        else if (path.includes("journal")) page = "blog";
+        else if (path.includes("post/")) page = "blog-post";
+        else if (path.includes("project/")) page = "project-detail";
+        else if (path.includes("project")) page = "project";
+        else if (path.includes("service")) page = "service";
+        else if (path.includes("sustainability")) page = "sustainability";
+        else if (path.includes("privacy-policy")) page = "terms";
+        else if (path.includes("terms-of-service")) page = "terms";
+        document.body.setAttribute("data-page", page);
+        
         const wWebflow = (window as any).Webflow;
         if (wWebflow && Array.isArray(wWebflow)) {
           console.log("Executing Webflow queue...", wWebflow.length);
-          wWebflow.forEach(fn => typeof fn === "function" && fn());
+          wWebflow.forEach(fn => {
+            if (typeof fn === "function") {
+              try {
+                fn();
+              } catch (e) {
+                console.warn("Webflow init function failed (likely missing element on this page):", e);
+              }
+            }
+          });
         }
       }, 100);
     };

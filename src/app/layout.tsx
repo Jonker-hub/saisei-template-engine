@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Menu from "@/components/Menu";
 import Footer from "@/components/Footer";
 import WebflowInit from "@/components/WebflowInit";
+import Loader from "@/components/Loader";
 
 export const metadata: Metadata = {
   title: "Saisei – Innovative Architecture & Sustainable Design Studio",
@@ -22,11 +24,15 @@ export default function RootLayout({
         <link href="/assets/css/inline.css" rel="stylesheet" type="text/css" />
         <link href="/assets/images/66de2f866644c088fa8747d1_Saisei%20-Favicon-d3bcd98e.png" rel="shortcut icon" type="image/x-icon" />
         <link href="/assets/images/66de2f8ab5d9589a9b1de8a3_Saisei%20-%20Webclip-6c809f92.png" rel="apple-touch-icon" />
-        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);` }}></script>
+        <Script id="webflow-touch-js" strategy="beforeInteractive">
+          {`!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);`}
+        </Script>
       </head>
       <body data-theme="dark" data-page="home">
+        <Loader />
         <div className="page_wrap">
           <Navbar />
+          <Menu />
           {children}
           <Footer />
         </div>
