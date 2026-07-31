@@ -14,6 +14,10 @@ html = html.replace(/<svg[^>]*class="quotes_kanji_svg"[^>]*>.*?<\/svg>/,
   `<div class="kanji_svg_text" style="font-family: var(--font--secondary, serif); font-size: clamp(2rem, 5vw, 4rem); line-height: 1.1; font-weight: 300; text-transform: uppercase; color: var(--theme--text); opacity: 0.6; margin-bottom: 0.5rem; white-space: nowrap;">Microtext 4D</div>`
 );
 
+// Remove all project kanji images (Project 1, 2, 3 Kanji)
+html = html.replace(/<img[^>]*class="home_project_kanji"[^>]*>/g, '');
+html = html.replace(/<img[^>]*class="project_hero_kanji[^"]*"[^>]*>/g, '');
+
 // Now re-split for the standard kanji blocks
 const updatedParts = html.split('class="kanji_wrap');
 
