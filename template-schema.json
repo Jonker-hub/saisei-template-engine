@@ -1,0 +1,222 @@
+{
+  "INFOTEXT_1": {
+    "originalText": "Meaning to \"rebirth\" or \"regeneration,\" reflecting a commitment to sustainable and regenerative design practices, aiming to redefine urban environments.",
+    "originalCharCount": 152,
+    "originalWordCount": 19,
+    "limits": {
+      "minChars": 106,
+      "maxChars": 198,
+      "minWords": 13,
+      "maxWords": 25
+    }
+  },
+  "MICROTEXT_1": {
+    "originalText": "scroll",
+    "originalCharCount": 6,
+    "originalWordCount": 1,
+    "limits": {
+      "minChars": 4,
+      "maxChars": 8,
+      "minWords": 1,
+      "maxWords": 2
+    }
+  },
+  "HIGHLIGHT_1": {
+    "originalText": "Every Line Tells a story",
+    "originalCharCount": 24,
+    "originalWordCount": 5,
+    "limits": {
+      "minChars": 16,
+      "maxChars": 32,
+      "minWords": 3,
+      "maxWords": 7
+    }
+  },
+  "INFOTEXT_2": {
+    "originalText": "In every project at Saisei, the essence of 伝統 (tradition) is evident. By integrating the disciplined aesthetics and thoughtful methodologies of our ancestors, we ensure that each structure is not only environmentally attuned but also rich in cultural significance. Our designs reflect a deep respect for the past, while embracing the innovations of the future.",
+    "originalCharCount": 360,
+    "originalWordCount": 55,
+    "limits": {
+      "minChars": 251,
+      "maxChars": 468,
+      "minWords": 38,
+      "maxWords": 72
+    }
+  },
+  "BUTTON_1": {
+    "originalText": "About Us",
+    "originalCharCount": 8,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 5,
+      "maxChars": 11,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "PROJECT_1_NAME": {
+    "originalText": "Shizuka Gardens",
+    "originalCharCount": 15,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 10,
+      "maxChars": 20,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "PROJECT_2_NAME": {
+    "originalText": "Kawa Lofts",
+    "originalCharCount": 10,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 7,
+      "maxChars": 13,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "PROJECT_3_NAME": {
+    "originalText": "Kinsei Pavilion",
+    "originalCharCount": 15,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 10,
+      "maxChars": 20,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "BUTTON_5": {
+    "originalText": "see project",
+    "originalCharCount": 11,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 7,
+      "maxChars": 15,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "HIGHLIGHT_2": {
+    "originalText": "Designs That Sustain Life",
+    "originalCharCount": 25,
+    "originalWordCount": 4,
+    "limits": {
+      "minChars": 17,
+      "maxChars": 33,
+      "minWords": 2,
+      "maxWords": 6
+    }
+  },
+  "INFOTEXT_3": {
+    "originalText": "Saisei is committed to revolutionizing architecture through sustainability. Each of our projects embodies our dedication to environmental stewardship, leveraging innovative technologies and green practices that set new standards for the industry.",
+    "originalCharCount": 246,
+    "originalWordCount": 31,
+    "limits": {
+      "minChars": 172,
+      "maxChars": 320,
+      "minWords": 21,
+      "maxWords": 41
+    }
+  },
+  "BUTTON_2": {
+    "originalText": "Sustainability",
+    "originalCharCount": 14,
+    "originalWordCount": 1,
+    "limits": {
+      "minChars": 9,
+      "maxChars": 19,
+      "minWords": 1,
+      "maxWords": 2
+    }
+  },
+  "HIGHLIGHT_3": {
+    "originalText": "Precision In Every Design",
+    "originalCharCount": 25,
+    "originalWordCount": 4,
+    "limits": {
+      "minChars": 16,
+      "maxChars": 35,
+      "minWords": 3,
+      "maxWords": 6
+    }
+  },
+  "INFOTEXT_4": {
+    "originalText": "Each Saisei project blends custom solutions with sustainable innovation, ensuring our designs meet your exact needs while respecting the planet.",
+    "originalCharCount": 144,
+    "originalWordCount": 20,
+    "limits": {
+      "minChars": 100,
+      "maxChars": 188,
+      "minWords": 14,
+      "maxWords": 26
+    }
+  },
+  "BUTTON_3": {
+    "originalText": "our service",
+    "originalCharCount": 11,
+    "originalWordCount": 2,
+    "limits": {
+      "minChars": 7,
+      "maxChars": 15,
+      "minWords": 1,
+      "maxWords": 3
+    }
+  },
+  "INFOTEXT_5": {
+    "originalText": "We embrace the spirit of '一期一会' (Ichi-go ichi-e), recognizing that each project presents a unique opportunity to create something exceptional. This philosophy guides our practice, instilling a sense of meticulous care and attention to detail in every design and interaction.",
+    "originalCharCount": 274,
+    "originalWordCount": 40,
+    "limits": {
+      "minChars": 191,
+      "maxChars": 357,
+      "minWords": 28,
+      "maxWords": 52
+    }
+  },
+  "HIGHLIGHT_4": {
+    "originalText": "Craft Your Vision",
+    "originalCharCount": 17,
+    "originalWordCount": 3,
+    "limits": {
+      "minChars": 11,
+      "maxChars": 23,
+      "minWords": 2,
+      "maxWords": 4
+    }
+  },
+  "INFOTEXT_6": {
+    "originalText": "Saisei blends innovation and sustainability to craft spaces that stand out and stand for something. Let’s bring your vision to life with thoughtful, modern design.",
+    "originalCharCount": 163,
+    "originalWordCount": 25,
+    "limits": {
+      "minChars": 114,
+      "maxChars": 212,
+      "minWords": 17,
+      "maxWords": 33
+    }
+  },
+  "BUTTON_4": {
+    "originalText": "Get in touch",
+    "originalCharCount": 12,
+    "originalWordCount": 3,
+    "limits": {
+      "minChars": 8,
+      "maxChars": 16,
+      "minWords": 2,
+      "maxWords": 4
+    }
+  },
+  "MICROTEXT_6": {
+    "originalText": "the art of innovation",
+    "originalCharCount": 21,
+    "originalWordCount": 4,
+    "limits": {
+      "minChars": 14,
+      "maxChars": 28,
+      "minWords": 2,
+      "maxWords": 6
+    }
+  }
+}
