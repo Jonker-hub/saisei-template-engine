@@ -6,9 +6,12 @@ let html = fs.readFileSync(pagePath, 'utf8');
 
 const parts = html.split('class="kanji_wrap');
 
-// First, handle the Hero Kanji separately since it doesn't use kanji_wrap
+// First, handle the Hero Kanji and Quotes Kanji separately since they don't use kanji_wrap
 html = html.replace(/<svg[^>]*class="hero_svg_small"[^>]*>.*?<\/svg>/, 
   `<div class="kanji_svg_text" style="font-family: var(--font--secondary, serif); font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.1; font-weight: 300; text-transform: uppercase; color: var(--theme--text); opacity: 0.6; margin-bottom: 0.5rem; white-space: nowrap;">Microtext 0A</div>`
+);
+html = html.replace(/<svg[^>]*class="quotes_kanji_svg"[^>]*>.*?<\/svg>/, 
+  `<div class="kanji_svg_text" style="font-family: var(--font--secondary, serif); font-size: clamp(2rem, 5vw, 4rem); line-height: 1.1; font-weight: 300; text-transform: uppercase; color: var(--theme--text); opacity: 0.6; margin-bottom: 0.5rem; white-space: nowrap;">Microtext 4D</div>`
 );
 
 // Now re-split for the standard kanji blocks
